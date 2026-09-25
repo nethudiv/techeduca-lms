@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="TechEduca online learning platform for practical web development, programming and digital skills."
+    >
+
+    <title>Contact | TechEduca</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header>
+        <div class="container nav">
+
+            <a class="brand" href="index.html">
+                <img src="Images/logo.svg" alt="TechEduca">
+            </a>
+
+            <button class="nav-toggle" aria-label="Open navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="course.html">Courses</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+
+                <a class="btn btn-sm" href="course.html">
+                    Start Learning
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- ==================== PAGE HERO ==================== -->
+        <section class="page-hero">
+            <div class="container">
+
+                <span class="eyebrow">CONTACT US</span>
+
+                <h1>
+                    Let's start a conversation.
+                </h1>
+
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Contact</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section class="section">
+            <div class="container contact-grid">
+
+                <!-- Contact Information -->
+                <div class="contact-card">
+
+                    <span class="eyebrow">GET IN TOUCH</span>
+
+                    <h2 style="margin-bottom: 20px;">
+                        Have a question?
+                    </h2>
+
+                    <p style="color: var(--muted); margin-bottom: 30px;">
+                        Ask about a course, learning path, enrolment or anything else.
+                        We will help you find the right next step.
+                    </p>
+
+
+                    <!-- Location -->
+                    <div class="contact-item">
+
+                        <div class="icon-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <h4>Location</h4>
+                            <p>Colombo, Sri Lanka</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="contact-item">
+
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@techeduca.com</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Phone -->
+                    <div class="contact-item">
+
+                        <div class="icon-box">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+94 11 234 5678</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Support Hours -->
+                    <div class="contact-item">
+
+                        <div class="icon-box">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+
+                        <div>
+                            <h4>Support hours</h4>
+                            <p>
+                                Monday – Friday, 9:00 AM – 5:00 PM
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Contact Form -->
+                <div class="form-card">
+
+                    <span class="eyebrow">SEND A MESSAGE</span>
+
+                    <h2 style="margin-bottom: 22px;">
+                        Tell us how we can help
+                    </h2>
+
+                    <form
+                        data-demo-form
+                        data-success="Thanks! Your message has been received. Our team will get back to you soon."
+                    >
+
+                        <div class="form-grid">
+
+                            <!-- Full Name -->
+                            <div class="field">
+
+                                <label for="name">
+                                    Full name
+                                </label>
+
+                                <input
+                                    id="name"
+                                    required
+                                    type="text"
+                                    placeholder="Your name"
+                                >
+
+                            </div>
+
+
+                            <!-- Email -->
+                            <div class="field">
+
+                                <label for="email">
+                                    Email address
+                                </label>
+
+                                <input
+                                    id="email"
+                                    required
+                                    type="email"
+                                    placeholder="you@example.com"
+                                >
+
+                            </div>
+
+
+                            <!-- Subject -->
+                            <div class="field full">
+
+                                <label for="subject">
+                                    Subject
+                                </label>
+
+                                <select id="subject">
+
+                                    <option>Course enquiry</option>
+                                    <option>Enrollment</option>
+                                    <option>Technical support</option>
+                                    <option>General question</option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- Message -->
+                            <div class="field full">
+
+                                <label for="message">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    required
+                                    placeholder="Write your message..."
+                                ></textarea>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Submit Button -->
+                        <button class="btn" type="submit">
+                            Send message
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+
+                        <!-- Form Message -->
+                        <div
+                            class="form-message"
+                            role="status"
+                        ></div>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== CTA SECTION ==================== -->
+        <section class="section">
+
+            <div class="container cta">
+
+                <h2>
+                    Not sure which course to choose?
+                </h2>
+
+                <p>
+                    Tell us your current level and what you want to build.
+                    We can point you toward a relevant learning path.
+                </p>
+
+                <a class="btn" href="course.html">
+                    Compare courses
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+
+        <div class="container footer-grid">
+
+            <!-- Footer Brand -->
+            <div class="footer-brand">
+
+                <img
+                    src="Images/logo.svg"
+                    alt="TechEduca"
+                >
+
+                <p>
+                    Practical, accessible online learning for people who want
+                    to build real digital skills and move forward with confidence.
+                </p>
+
+            </div>
+
+
+            <!-- Explore -->
+            <div>
+
+                <h4>Explore</h4>
+
+                <ul>
+                    <li>
+                        <a href="course.html">All Courses</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html">Learning Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- Popular Courses -->
+            <div>
+
+                <h4>Popular</h4>
+
+                <ul>
+
+                    <li>
+                        <a href="course-inner.html?course=javascript">
+                            JavaScript
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="course-inner.html?course=web">
+                            Web Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="course-inner.html?course=design">
+                            Web Design
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="course-inner.html?course=python">
+                            Python
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Get In Touch -->
+            <div>
+
+                <h4>Get in touch</h4>
+
+                <ul>
+
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        hello@techeduca.com
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        +94 11 234 5678
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Colombo, Sri Lanka
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer Bottom -->
+        <div class="container footer-bottom">
+
+            © <span data-year></span>
+            TechEduca. All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
